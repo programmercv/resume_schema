@@ -12,6 +12,7 @@ Not really intended to set *the standard* for résumés, nor to replace existing
 
 - [**prtfl.io Resume Schema Definition**](schema.json)
 - [**Example Resume**](example.json)
+- [**Validate your json data**](https://jsonschemalint.com/#/version/draft-04/markup/json?gist=6647dba3bb3f2cca114bed682aa22a5a)
 
 Structure Overview:
 
