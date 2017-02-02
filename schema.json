@@ -44,8 +44,7 @@
           "properties": {
             "email": {
               "type": "string",
-              "description": "Primary contact email.",
-              "format": "email"
+              "description": "Primary contact email."
             },
             "phone": {
               "type": "string",
@@ -53,8 +52,7 @@
             },
             "website": {
               "type": "string",
-              "description": "Website, blog, or home page.",
-              "format": "uri"
+              "description": "Website, blog, or home page."
             },
             "location": {
               "type": "string",
@@ -109,8 +107,7 @@
               },
               "url": {
                 "type": "string",
-                "description": "Employer website.",
-                "format": "uri"
+                "description": "Employer website."
               },
               "start": {
                 "type": "string",
@@ -202,8 +199,7 @@
               },
               "url": {
                 "type": "string",
-                "description": "Website or URL of the institution or school.",
-                "format": "uri"
+                "description": "Website or URL of the institution or school."
               },
               "summary": {
                 "type": "string",
@@ -259,13 +255,11 @@
               },
               "url": {
                 "type": "string",
-                "description": "Project URL.",
-                "format": "uri"
+                "description": "Project URL."
               },
               "repo": {
                 "type": "string",
-                "description": "Repo URL.",
-                "format": "uri"
+                "description": "Repo URL."
               },
               "images": {
                 "type": "array",            
@@ -329,7 +323,7 @@
             "properties": {
               "title": {
                 "type": "string",
-                "description": "Project name or code-name.",            
+                "description": "Project name or code-name."   
               },
               "description": {
                 "type": "string",
@@ -345,13 +339,11 @@
               },
               "url": {
                 "type": "string",
-                "description": "Project URL.",
-                "format": "uri"
+                "description": "Project URL."
               },
               "repo": {
                 "type": "string",
-                "description": "Repo URL.",
-                "format": "uri"
+                "description": "Repo URL."
               },
               "start": {
                 "type": "string",
@@ -453,8 +445,7 @@
               },
               "url": {
                 "type": "string",
-                "description": "A webpage or other associated URL.",
-                "format": "uri"
+                "description": "A webpage or other associated URL."
               },
               "highlights": {
                 "type": "array",
@@ -514,8 +505,7 @@
               },
               "url": {
                 "type": "string",
-                "description": "A webpage or other associated URL.",
-                "format": "uri"
+                "description": "A webpage or other associated URL."
               },
               "highlights": {
                 "type": "array",
@@ -619,8 +609,7 @@
               },
               "url": {
                 "type": "string",
-                "description": "URL of the book, blog, or article.",
-                "format": "uri"
+                "description": "URL of the book, blog, or article."
               },
               "author": {
                 "type": "string",            
@@ -743,7 +732,7 @@
                 "description": "Patent status, e.g. pending or granted"
               },
               "description": {
-                "type": "boolean",
+                "type": "string",
                 "description": "Description of the patent"
               },
               "date": {
@@ -788,7 +777,7 @@
             "properties": {
               "language": {
                 "type": "string",
-                "description": "The name of the language: English, Spanish, etc.",            
+                "description": "The name of the language: English, Spanish, etc."
               },
               "level": {
                 "type": "string",
@@ -913,8 +902,7 @@
               },
               "url": {
                 "type": "string",
-                "description": "Organization website.",
-                "format": "uri"
+                "description": "Organization website."
               },
               "start": {
                 "type": "string",
@@ -1041,8 +1029,7 @@
               },
               "url": {
                 "type": "string",
-                "description": "Organization website.",
-                "format": "uri"
+                "description": "Organization website."
               },
               "start": {
                 "type": "string",
