@@ -129,21 +129,22 @@
                 "type": "string",
                 "description": "A summary of your achievements and responsibilities under this employer."
               },
+              "location": {
+                "type": "string",
+                "description": "Freeform location of the job or position, e.g., 'San Francisco, CA' or 'Tokyo'."
+              },
               "highlights": {
                 "type": "array",
                 "description": "Noteworthy achievements and/or highlights.",                
                 "items": {
                   "type": "string",
-                  "description": "For ex, 'Led 5-person development team, increasing profits by 50% year-over-year'."
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
                 }
-              },
-              "location": {
-                "type": "string",
-                "description": "Freeform location of the job or position, e.g., 'San Francisco, CA' or 'Tokyo'."
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this position.",                
+                "description": "Keywords associated with this service.",
+                
                 "items": {
                   "type": "string",
                   "description": "For example, C++, HTML, HIPAA, etc."
@@ -213,25 +214,26 @@
                 "type": "string",
                 "description": "A short summary of this education experience."
               },
-              "keywords": {
-                "type": "array",
-                "description": "Keywords associated with this education stint.",                
-                "items": {
-                  "type": "string",
-                  "description": "For example, C++, HTML, HIPAA, etc."
-                }
+              "location": {
+                "type": "string",
+                "description": "Freeform location of the education, e.g., 'San Francisco, CA' or 'Tokyo'."
               },
               "highlights": {
                 "type": "array",
                 "description": "Noteworthy achievements and/or highlights.",                
                 "items": {
                   "type": "string",
-                  "description": "For ex, 'Graduated *summa cum laude*'."
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
                 }
               },
-              "location": {
-                "type": "string",
-                "description": "Freeform location of the education, e.g., 'San Francisco, CA' or 'Tokyo'."
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
               }
             }
           }
@@ -240,68 +242,77 @@
     },
 
     "projects": {
-      "type": "array",      
+      "type": "object",
       "description": "The personal projects you worked on.",
-      "items": {
-        "type": "object",        
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Project name or code-name."            
-          },
-          "description": {
-            "type": "string",
-            "description": "Project description or summary."
-          },
-          "url": {
-            "type": "string",
-            "description": "Project URL.",
-            "format": "uri"
-          },
-          "repo": {
-            "type": "string",
-            "description": "Repo URL.",
-            "format": "uri"
-          },
-          "images": {
-            "type": "array",            
-            "description": "Images and screenshots of the project",
-            "items": {
-              "type": "object",              
-              "properties": {
-                "thumbnail": {
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of the projects you worked on."
+        },
+        "history": {
+          "type": "array",        
+          "items": {
+            "type": "object",        
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Project name or code-name."            
+              },
+              "description": {
+                "type": "string",
+                "description": "Project description or summary."
+              },
+              "url": {
+                "type": "string",
+                "description": "Project URL.",
+                "format": "uri"
+              },
+              "repo": {
+                "type": "string",
+                "description": "Repo URL.",
+                "format": "uri"
+              },
+              "images": {
+                "type": "array",            
+                "description": "Images and screenshots of the project",
+                "items": {
+                  "type": "object",              
+                  "properties": {
+                    "thumbnail": {
+                      "type": "string",
+                      "description": "Thumbnail of the image with 300px width and 300px height"                  
+                    },
+                    "big": {
+                      "type": "string",
+                      "description": "The image in its original size"
+                    }
+                  }
+                }
+              },
+              "start": {
+                "type": "string",
+                "description": "Date your work on the project began"
+              },
+              "end": {
+                "type": "string",
+                "description": "Date your work on the project ended"
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy project-related achievements and/or highlights.",            
+                "items": {
                   "type": "string",
-                  "description": "Thumbnail of the image with 300px width and 300px height"                  
-                },
-                "big": {
+                  "description": "For ex, '#1 app on Itunes in the Fitness category'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this project.",            
+                "items": {
                   "type": "string",
-                  "description": "The image in its original size"
+                  "description": "For example, C++, HTML, HIPAA, etc."
                 }
               }
-            }
-          },
-          "start": {
-            "type": "string",
-            "description": "Date your work on the project began"
-          },
-          "end": {
-            "type": "string",
-            "description": "Date your work on the project ended"
-          },
-          "highlights": {
-            "type": "array",
-            "description": "Noteworthy project-related achievements and/or highlights.",            
-            "items": {
-              "type": "string",
-              "description": "For ex, '#1 app on Itunes in the Fitness category'."
-            }
-          },
-          "keywords": {
-            "type": "array",
-            "description": "Keywords associated with this project.",            
-            "items": {
-              "type": "string",
-              "description": "For example, C++, HTML, HIPAA, etc."
             }
           }
         }
@@ -309,59 +320,68 @@
     },
 
     "openSource": {
-      "type": "array",      
+      "type": "object",      
       "description": "The open-source projects you worked on or contributed to.",
-      "items": {
-        "type": "object",        
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Project name or code-name.",            
-          },
-          "description": {
-            "type": "string",
-            "description": "Project description or summary."
-          },
-          "summary": {
-            "type": "string",
-            "description": "A summary of your achievements and responsibilities on the project."
-          },
-          "role": {
-            "type": "string",
-            "description": "Your role on the project: Contributor, Creator, etc."
-          },
-          "url": {
-            "type": "string",
-            "description": "Project URL.",
-            "format": "uri"
-          },
-          "repo": {
-            "type": "string",
-            "description": "Repo URL.",
-            "format": "uri"
-          },
-          "start": {
-            "type": "string",
-            "description": "Date your involvement with project began"
-          },
-          "end": {
-            "type": "string",
-            "description": "Date your involvement with project ended"
-          },
-          "highlights": {
-            "type": "array",
-            "description": "Noteworthy project-related achievements and/or highlights.",            
-            "items": {
-              "type": "string",
-              "description": "For ex, 'Active contributer to the project, with lots of issues raised and 7 pull-request accepted'."
-            }
-          },
-          "keywords": {
-            "type": "array",
-            "description": "Keywords associated with this project.",            
-            "items": {
-              "type": "string",
-              "description": "For example, C++, HTML, HIPAA, etc."
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your open-source involvement."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Project name or code-name.",            
+              },
+              "description": {
+                "type": "string",
+                "description": "Project description or summary."
+              },
+              "summary": {
+                "type": "string",
+                "description": "A summary of your achievements and responsibilities on the project."
+              },
+              "role": {
+                "type": "string",
+                "description": "Your role on the project: Contributor, Creator, etc."
+              },
+              "url": {
+                "type": "string",
+                "description": "Project URL.",
+                "format": "uri"
+              },
+              "repo": {
+                "type": "string",
+                "description": "Repo URL.",
+                "format": "uri"
+              },
+              "start": {
+                "type": "string",
+                "description": "Date your involvement with project began"
+              },
+              "end": {
+                "type": "string",
+                "description": "Date your involvement with project ended"
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy project-related achievements and/or highlights.",            
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Active contributer to the project, with lots of issues raised and 7 pull-request accepted'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this project.",            
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
             }
           }
         }
@@ -369,11 +389,15 @@
     },
 
     "skills": {
-      "type": "object",
-      "description": "Your formal skills and capabilities.",      
+      "type": "object",          
+      "description": "Your formal skills and capabilities.",
       "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your skills."
+        },
         "sets": {
-          "type": "array",          
+          "type": "array",
           "items": {
             "type": "object",            
             "properties": {
@@ -400,286 +424,468 @@
     },
 
     "qualifications": {
-      "type": "array",
+      "type": "object",
       "description": "Your qualifications for the job: e.g. certificates, test scores, continuing education, standalone programs and courses.",      
-      "items": {
-        "type": "object",        
-        "properties": {
-          "category": {
-            "type": "string",
-            "description": "Type of qualification: test score, course, certificate, program etc."
-          },
-          "title": {
-            "type": "string",
-            "description": "Title of the qualification."            
-          },
-          "date": {
-            "type": "string",
-            "description": "Date of the qualification."
-          },
-          "from": {
-            "type": "string",
-            "description": "Name of the company, insitution, individual or issuer of the qualification."
-          },
-          "summary": {
-            "type": "string",
-            "description": "A brief description of the qualification and why you received it."
-          },
-          "url": {
-            "type": "string",
-            "description": "A webpage or other associated URL.",
-            "format": "uri"
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your qualifications."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "category": {
+                "type": "string",
+                "description": "Type of qualification: test score, course, certificate, program etc."
+              },
+              "title": {
+                "type": "string",
+                "description": "Title of the qualification."            
+              },
+              "date": {
+                "type": "string",
+                "description": "Date of the qualification."
+              },
+              "from": {
+                "type": "string",
+                "description": "Name of the company, insitution, individual or issuer of the qualification."
+              },
+              "summary": {
+                "type": "string",
+                "description": "A brief description of the qualification and why you received it."
+              },
+              "url": {
+                "type": "string",
+                "description": "A webpage or other associated URL.",
+                "format": "uri"
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",                
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
+            }
           }
         }
       }
     },
 
     "recognition": {
-      "type": "array",
+      "type": "object",
       "description": "Your public or professional plaudits, kudos, awards, and other forms of positive external reinforcement.",      
-      "items": {
-        "type": "object",        
-        "properties": {
-          "category": {
-            "type": "string",
-            "description": "Type of recognition: award, honor, prize, etc."
-          },
-          "title": {
-            "type": "string",
-            "description": "Title of the award or recognition."            
-          },
-          "date": {
-            "type": "string",
-            "description": "Date awarded"
-          },
-          "from": {
-            "type": "string",
-            "description": "Name of the awarding company, insitution, or individual."
-          },
-          "summary": {
-            "type": "string",
-            "description": "A brief description of the award and why you received it."
-          },
-          "url": {
-            "type": "string",
-            "description": "A webpage or other associated URL.",
-            "format": "uri"
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your overall recognition."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "category": {
+                "type": "string",
+                "description": "Type of recognition: award, honor, prize, etc."
+              },
+              "title": {
+                "type": "string",
+                "description": "Title of the award or recognition."            
+              },
+              "date": {
+                "type": "string",
+                "description": "Date awarded"
+              },
+              "from": {
+                "type": "string",
+                "description": "Name of the awarding company, insitution, or individual."
+              },
+              "summary": {
+                "type": "string",
+                "description": "A brief description of the award and why you received it."
+              },
+              "url": {
+                "type": "string",
+                "description": "A webpage or other associated URL.",
+                "format": "uri"
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",                
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
+            }
           }
         }
       }
     },
 
     "writing": {
-      "type": "array",
+      "type": "object",
       "description": "Your writing and publication history, from blogs and essays to novels and dissertations.",      
-      "items": {
-        "type": "object",        
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Title of the article, essay, or book."            
-          },
-          "category": {
-            "type": "string",
-            "description": "E.g. 'book', 'article', 'essay', 'blog post', 'dissertation' or 'series'."
-          },
-          "date": {
-            "type": "string",
-            "description": "Publication date."
-          },
-          "url": {
-            "type": "string",
-            "description": "Website or URL of this writing or publication."
-          },
-          "summary": {
-            "type": "string",
-            "description": "A brief summary of the publication."
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your overall writing experience."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Title of the article, essay, or book."            
+              },
+              "category": {
+                "type": "string",
+                "description": "E.g. 'book', 'article', 'essay', 'blog post', 'dissertation' or 'series'."
+              },
+              "date": {
+                "type": "string",
+                "description": "Publication date."
+              },
+              "url": {
+                "type": "string",
+                "description": "Website or URL of this writing or publication."
+              },
+              "summary": {
+                "type": "string",
+                "description": "A brief summary of the publication."
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",                
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
+            }
           }
         }
       }
     },
 
     "reading": {
-      "type": "array",
+      "type": "object",
       "description": "Your reading habits. It is intended to demonstrate familiarity with industry-relevant publications, blogs, books, or other media that a competent industry candidate should be expected to know.",     
-      "items": {
-        "type": "object",        
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Title of the book, blog, or article."            
-          },
-          "category": {
-            "type": "string",
-            "description": "The type of reading: book, article, blog, magazine, series, etc."
-          },
-          "url": {
-            "type": "string",
-            "description": "URL of the book, blog, or article.",
-            "format": "uri"
-          },
-          "author": {
-            "type": "string",            
-            "description": "Author of the book, blog, or article."
-          },
-          "date": {
-            "type": "string",
-            "description": "Publication date"
-          },
-          "summary": {
-            "type": "string",
-            "description": "A brief description of the book, magazine, etc."
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your overall reading habits."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Title of the book, blog, or article."            
+              },
+              "category": {
+                "type": "string",
+                "description": "The type of reading: book, article, blog, magazine, series, etc."
+              },
+              "url": {
+                "type": "string",
+                "description": "URL of the book, blog, or article.",
+                "format": "uri"
+              },
+              "author": {
+                "type": "string",            
+                "description": "Author of the book, blog, or article."
+              },
+              "date": {
+                "type": "string",
+                "description": "Publication date"
+              },
+              "summary": {
+                "type": "string",
+                "description": "A brief description of the book, magazine, etc."
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",                
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
+            }
           }
         }
       }
     },
 
     "speaking": {
-      "type": "array",      
+      "type": "object",      
       "section": "Your speaking engagements and presentations.",
-      "items": {
-        "type": "object",        
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Speaking engagement title."
-          },
-          "event": {
-            "type": "string",
-            "description": "Event at which you presented."            
-          },
-          "location": {
-            "type": "string",
-            "description": "Freeform location of the event, e.g., 'San Francisco, CA' or 'Tokyo'."
-          },
-          "date": {
-            "type": "string",
-            "description": "Presentation date."
-          },
-          "highlights": {
-            "type": "array",
-            "description": "Noteworthy achievements and/or highlights.",
-            
-            "items": {
-              "type": "string",
-              "description": "An array of specific highlights such as 'Won 'Best Speaker' award at 2012 E3 expo'."
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of overall speaking experience."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Speaking engagement title."
+              },
+              "event": {
+                "type": "string",
+                "description": "Event at which you presented."            
+              },
+              "location": {
+                "type": "string",
+                "description": "Freeform location of the event, e.g., 'San Francisco, CA' or 'Tokyo'."
+              },
+              "date": {
+                "type": "string",
+                "description": "Presentation date."
+              },
+              "summary": {
+                "type": "string",
+                "description": "A description of this speaking engagement."
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",                
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
             }
-          },
-          "keywords": {
-            "type": "array",
-            "description": "Keywords associated with this speaking engagement.",
-            
-            "items": {
-              "type": "string",
-              "description": "A list of keywords such as 'TED', 'E3', 'mathematics', 'Big Data', etc."
-            }
-          },
-          "summary": {
-            "type": "string",
-            "description": "A description of this speaking engagement."
           }
         }
       }
     },
 
     "patents": {
-      "type": "array",
+      "type": "object",
       "description": "The patents you are holding",      
-      "items": {
-        "type": "object",        
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Title of the patent"            
-          },
-          "url": {
-            "type": "string",
-            "description": "A public URL to the patent details."
-          },
-          "number": {
-            "type": "string",
-            "description": "Number of the patent or patent application"
-          },
-          "status": {
-            "type": "string",
-            "description": "Patent status, e.g. pending or granted"
-          },
-          "description": {
-            "type": "boolean",
-            "description": "Description of the patent"
-          },
-          "date": {
-            "type": "string",
-            "description": "Date of the patent granted, or application filed"
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of patents."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Title of the patent"            
+              },
+              "url": {
+                "type": "string",
+                "description": "A public URL to the patent details."
+              },
+              "number": {
+                "type": "string",
+                "description": "Number of the patent or patent application"
+              },
+              "status": {
+                "type": "string",
+                "description": "Patent status, e.g. pending or granted"
+              },
+              "description": {
+                "type": "boolean",
+                "description": "Description of the patent"
+              },
+              "date": {
+                "type": "string",
+                "description": "Date of the patent granted, or application filed"
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",                
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
+            }
           }
         }
       }
     },
 
     "languages": {
-      "type": "array",
+      "type": "object",
       "description": "Your knowledge of world languages such as English, Spanish, or Chinese.",      
-      "items": {
-        "type": "object",        
-        "properties": {
-          "language": {
-            "type": "string",
-            "description": "The name of the language: English, Spanish, etc.",            
-          },
-          "level": {
-            "type": "string",
-            "description": "Level of fluency with the language, e.g. 'elementary', 'limited-working', 'professional-working', 'full-professional', 'native-or-bilingual'"
-          },
-          "years": {
-            "type": "string",
-            "description": "Amount of time language spoken?"
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of language experience."
+        },
+        "list": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "language": {
+                "type": "string",
+                "description": "The name of the language: English, Spanish, etc.",            
+              },
+              "level": {
+                "type": "string",
+                "description": "Level of fluency with the language, e.g. 'elementary', 'limited-working', 'professional-working', 'full-professional', 'native-or-bilingual'"
+              },
+              "years": {
+                "type": "string",
+                "description": "Amount of time language spoken?"
+              }
+            }
           }
         }
       }
     },
 
     "interests": {
-      "type": "array",      
+      "type": "object",      
       "description": "Your interests and enthusiasms outside of work.",
-      "items": {
-        "type": "object",        
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "The name or title of the interest or hobby."            
-          },
-          "description": {
-            "type": "string"
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of interests."
+        },
+        "list": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "The name or title of the interest or hobby."            
+              },
+              "description": {
+                "type": "string"
+              }
+            }
           }
         }
       }
     },
 
     "extracurricular": {
-      "type": "array",
+      "type": "object",
       "description": "Your involvement with industry-related events and enterprises outside of work. For example: attending conferences, workshops, or meetups.",      
-      "items": {
-        "type": "object",        
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Title of the extracurricular activity."            
-          },
-          "activity": {
-            "type": "string",
-            "description": "The extracurricular activity."            
-          },
-          "location": {
-            "type": "string",
-            "description": "City, state, or other freeform location."
-          },
-          "start": {
-            "type": "string",
-            "description": "Start date."
-          },
-          "end": {
-            "type": "string",
-            "description": "End date."
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your overall extracurricular experience."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Title of the extracurricular activity."            
+              },
+              "activity": {
+                "type": "string",
+                "description": "The extracurricular activity."            
+              },
+              "location": {
+                "type": "string",
+                "description": "City, state, or other freeform location."
+              },
+              "start": {
+                "type": "string",
+                "description": "Start date."
+              },
+              "end": {
+                "type": "string",
+                "description": "End date."
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",                
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this service.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, HTML, HIPAA, etc."
+                }
+              }
+            }
           }
         }
       }
@@ -754,50 +960,59 @@
     },
 
     "governance": {
-      "type": "array",      
+      "type": "object",      
       "description": "Your leadership, standards, board, and committee roles.",
-      "items": {
-        "type": "object",        
-        "properties": {
-          "summary": {
-            "type": "string",
-            "description": "Summary of your governance at this organization."
-          },
-          "category": {
-            "type": "string",
-            "description": "Type of governance: committee, board, standards group, etc."
-          },
-          "role": {
-            "type": "string",
-            "description": "Governance role: board member, contributor, director, etc."
-          },
-          "organization": {
-            "type": "string",
-            "description": "The organization."            
-          },
-          "start": {
-            "type": "string",
-            "description": "Start date."
-          },
-          "end": {
-            "type": "string",
-            "description": "End date."
-          },
-          "keywords": {
-            "type": "array",
-            "description": "Keywords associated with this governance stint.",
-            
-            "items": {
-              "type": "string",
-              "description": "For example, C++, CRM, HIPAA."
-            }
-          },
-          "highlights": {
-            "type": "array",
-            "description": "Noteworthy achievements and/or highlights.",            
-            "items": {
-              "type": "string",
-              "description": "For ex, 'Increased company profits by 35% year over year'."
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your overall governance experience."
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "summary": {
+                "type": "string",
+                "description": "Summary of your governance at this organization."
+              },
+              "category": {
+                "type": "string",
+                "description": "Type of governance: committee, board, standards group, etc."
+              },
+              "role": {
+                "type": "string",
+                "description": "Governance role: board member, contributor, director, etc."
+              },
+              "organization": {
+                "type": "string",
+                "description": "The organization."            
+              },
+              "start": {
+                "type": "string",
+                "description": "Start date."
+              },
+              "end": {
+                "type": "string",
+                "description": "End date."
+              },
+              "keywords": {
+                "type": "array",
+                "description": "Keywords associated with this governance stint.",
+                
+                "items": {
+                  "type": "string",
+                  "description": "For example, C++, CRM, HIPAA."
+                }
+              },
+              "highlights": {
+                "type": "array",
+                "description": "Noteworthy achievements and/or highlights.",            
+                "items": {
+                  "type": "string",
+                  "description": "For ex, 'Increased company profits by 35% year over year'."
+                }
+              }
             }
           }
         }
@@ -846,6 +1061,10 @@
                 "type": "string",
                 "description": "A summary of your achievements and responsibilities at this organization."
               },
+              "location": {
+                "type": "string",
+                "description": "Freeform location of the position, e.g., 'San Francisco, CA' or 'Tokyo'."
+              },
               "highlights": {
                 "type": "array",
                 "description": "Noteworthy achievements and/or highlights.",                
@@ -862,10 +1081,6 @@
                   "type": "string",
                   "description": "For example, C++, HTML, HIPAA, etc."
                 }
-              },
-              "location": {
-                "type": "string",
-                "description": "Freeform location of the position, e.g., 'San Francisco, CA' or 'Tokyo'."
               }
             }
           }
@@ -874,32 +1089,44 @@
     },
 
     "references": {
-      "type": "array",
+      "type": "object",
       "description": "Your personal, professional, and/or technical references.",      
-      "items": {
-        "type": "object",        
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "The full name of the person giving the reference."            
-          },
-          "role": {
-            "type": "string",
-            "description": "The occupation of this reference, or his or her relationship to the candidate."
-          },
-          "summary": {
-            "type": "string",
-            "description": "Optional summary information for this reference."
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your references."
+        },
+        "list": {
+          "type": "array",
+          "items": {
+            "type": "object",        
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "The full name of the person giving the reference."            
+              },
+              "role": {
+                "type": "string",
+                "description": "The occupation of this reference, or his or her relationship to the candidate."
+              },
+              "summary": {
+                "type": "string",
+                "description": "Optional summary information for this reference."
+              }
+            }
           }
         }
       }
     },
 
     "disposition": {
-      "type": "object",
-      
+      "type": "object",      
       "description": "Your overall attitude towards new employment opportunities including: travel, relocation, schedule, desired type of work, and the like.",
       "properties": {
+        "summary": {
+          "type": "string",
+          "description:": "Summary of your overall attitude."
+        },
         "travel": {
           "type": "integer",
           "description": "Percentage of time willing to travel (0 to 100)."
