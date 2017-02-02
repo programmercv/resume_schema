@@ -49,7 +49,7 @@
       "grade": "",
       "url": "",
       "summary": "",
-      "location": ""
+      "location": "",
       "curriculum": [""],
       "highlights": [""],
       "keywords": [""]
@@ -278,5 +278,5 @@
         "destinations": []
       }
     }]
-  },
+  }
 }

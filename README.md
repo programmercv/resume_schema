@@ -68,7 +68,7 @@ Structure Overview:
       "grade": "",
       "url": "",
       "summary": "",
-      "location": ""
+      "location": "",
       "curriculum": [""],
       "highlights": [""],
       "keywords": [""]
@@ -297,7 +297,7 @@ Structure Overview:
         "destinations": []
       }
     }]
-  },
+  }
 }
 
 ```
