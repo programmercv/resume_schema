@@ -177,11 +177,11 @@
                 "type": "string",
                 "description": "College or school name."                
               },
-              "area": {
+              "fieldOfStudy": {
                 "type": "string",
                 "description": "e.g. Computer Science"
               },
-              "studyType": {
+              "degree": {
                 "type": "string",
                 "description": "e.g. Bachelor"
               },
