@@ -11,7 +11,7 @@ It is heavely influenced by the existing resume standards [FRESCA](https://githu
 Not really intended to set *the standard* for résumés, nor to replace existing ones. In fact, prtfl.io and RésuméExporter are designed to work with FRESCA- and JSONResume-based schemas. But both schema definitions were missing some elements, and we needed a clearly defined schema definition for [prtfl.io](https://prtfl.io) and the prtfl.io jekyll theme (coming soon), in a public place, where people can read, understand, discuss, change and use it.
 
 - [**prtfl.io Resume Schema Definition**](schema.json)
-- [**Example Resume**](resume.json)
+- [**Example Resume**](example.json)
 
 Structure Overview:
 

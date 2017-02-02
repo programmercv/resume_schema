@@ -1,1 +1,284 @@
-TODO
+//TODO: add example data
+{
+  "meta": {
+    "format": "",
+    "version": ""
+  },
+
+  "basics": {
+    "name": "",
+    "label": "",
+    "image": "",
+    "summary": "",
+    "contact": {
+      "email": "",
+      "phone": "",
+      "website": "",
+      "location": "",
+      "social": [{
+        "network": "",
+        "user": "",
+        "icon": "",
+        "url": ""
+      }]
+    }
+  },
+
+  "employment": {
+    "summary": "",
+    "history": [{          
+      "employer": "",
+      "position": "",
+      "url": "",
+      "start": "",
+      "end": "",
+      "summary": "",
+      "location": "",
+      "highlights": [""],
+      "keywords": [""]
+    }]
+  },
+
+  "education": {
+    "summary": "",
+    "history":[{
+      "title": "",
+      "institution": "",
+      "fieldOfStudy": "",
+      "degree": "",
+      "start": "",
+      "end": "",
+      "grade": "",
+      "url": "",
+      "summary": "",
+      "location": ""
+      "curriculum": [""],
+      "highlights": [""],
+      "keywords": [""]
+    }]
+  },
+
+  "projects": {
+    "summary": "",
+    "history": [{
+      "title": "",
+      "description": "",
+      "url": "",
+      "repo": "",
+      "start": "",
+      "end": "",
+      "images": [{            
+        "thumbnail": "",
+        "big": ""
+      }],
+      "highlights": [""],
+      "keywords": [""]
+    }]
+  },
+
+  "openSource": {
+    "summary": "",
+    "history": [{
+      "title": "",
+      "description": "",
+      "summary": "",
+      "role": "",
+      "url": "",
+      "repo": "",
+      "start": "",
+      "end": "",
+      "highlights": [""],
+      "keywords": [""]
+    }]
+  },
+
+  "skills": {
+    "summary": "",
+    "history": [{
+      "name": "",
+      "description": "",
+      "keywords": [""]
+    }]
+  },
+
+  "qualifications": {
+    "summary": "",
+    "history": [{
+      "category": "",
+      "title": "",
+      "date": "",
+      "from": "",
+      "summary": "",
+      "url": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "recognition": {
+    "summary": "",
+    "history": [{
+      "category": "",
+      "title": "",
+      "date": "",
+      "from": "",
+      "summary": "",
+      "url": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "writing": {
+    "summary": "",
+    "history": [{
+      "title": "",
+      "category": "",
+      "date": "",
+      "url": "",
+      "summary": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "reading": {
+    "summary": "",
+    "history": [{
+      "title": "",
+      "category": "",
+      "url": "",
+      "author": "",
+      "date": "",
+      "summary": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "speaking": {
+    "summary": "",
+    "history": [{
+      "title": "",
+      "event": "",
+      "location": "",
+      "date": "",
+      "summary": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "patents": {
+    "summary": "",
+    "history": [{
+      "title": "",
+      "url": "",
+      "number": "",
+      "status": "",
+      "description": "",
+      "date": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "languages": {
+    "summary": "",
+    "history": [{
+      "language": "",
+      "level": "",
+      "years": ""
+    }]
+  },
+
+  "interests": {
+    "summary": "",
+    "history": [{
+      "name": "",
+      "description": ""
+    }]
+  },
+
+  "extracurricular": {
+    "summary": "",
+    "history": [{
+      "title": "",
+      "activity": "",
+      "location": "",
+      "start": "",
+      "end": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "affiliation": {
+    "summary": "",
+    "history": [{
+      "category": "",
+      "organization": "",
+      "role": "",
+      "url": "",
+      "start": "",
+      "end": "",
+      "summary": "",
+      "location": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "governance": {
+    "summary": "",
+    "history": [{
+      "summary": "",
+      "category": "",
+      "role": "",
+      "organization": "",
+      "start": "",
+      "end": "",
+      "keywords": [],
+      "highlights": []
+    }]
+  },
+
+  "service": {
+    "summary": "",
+    "history": [{
+      "category": "",
+      "organization": "",
+      "position": "",
+      "url": "",
+      "start": "",
+      "end": "",
+      "summary": "",
+      "location": "",
+      "highlights": [],
+      "keywords": []
+    }]
+  },
+
+  "references": {
+    "summary": "",
+    "history": [{
+      "name": "",
+      "role": "",
+      "summary": ""
+    }]
+  },
+
+  "disposition": {
+    "summary": "",
+    "history": [{
+      "travel": "",
+      "authorization": "",
+      "commitment": [],
+      "remote": true,
+      "relocation": {
+        "willing": "",
+        "destinations": []
+      }
+    }]
+  },
+}
