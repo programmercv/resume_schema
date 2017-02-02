@@ -35,7 +35,6 @@ Structure Overview:
       "social": [{
         "network": "",
         "user": "",
-        "icon": "",
         "url": ""
       }]
     }

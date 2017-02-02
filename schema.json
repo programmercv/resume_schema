@@ -74,11 +74,6 @@
                     "type": "string",
                     "description": "Your user name, number or identifier on this network."
                   },
-                  "icon": {
-                    "type": "string",
-                    "description": "The icon of the social network.",
-                    "enum": []
-                  },
                   "url": {
                     "type": "string",
                     "description": "URL of your profile page on this network."                   
