@@ -268,15 +268,13 @@
 
   "disposition": {
     "summary": "",
-    "history": [{
-      "travel": "",
-      "authorization": "",
-      "commitment": [],
-      "remote": true,
-      "relocation": {
-        "willing": "",
-        "destinations": []
-      }
-    }]
+    "travel": 20,
+    "authorization": "",
+    "commitment": [],
+    "remote": true,
+    "relocation": {
+      "willing": true,
+      "destinations": []
+    }    
   }
 }
