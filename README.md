@@ -153,6 +153,7 @@ Structure Overview:
       "category": "",
       "date": "",
       "url": "",
+      "publisher": "",
       "summary": "",
       "highlights": [],
       "keywords": []

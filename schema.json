@@ -559,6 +559,10 @@
                 "type": "string",
                 "description": "Website or URL of this writing or publication."
               },
+              "publisher": {
+                "type": "string",
+                "description": "Name of the publisher"
+              },
               "summary": {
                 "type": "string",
                 "description": "A brief summary of the publication."
