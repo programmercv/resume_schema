@@ -269,6 +269,10 @@
                 "type": "string",
                 "description": "Date your work on the project ended"
               },
+              "type": {
+                "type": "string",
+                "description": "The type of the project. E.g. 'Software', 'iOs App', 'Mobile App', 'Desktop Software', 'API'"
+              },
               "images": {
                 "type": "array",            
                 "description": "Images and screenshots of the project",
@@ -356,6 +360,10 @@
               "end": {
                 "type": "string",
                 "description": "Date your involvement with project ended"
+              },
+              "type": {
+                "type": "string",
+                "description": "The type of the project. E.g. 'Software', 'iOs App', 'Mobile App', 'Desktop Software', 'API'"
               },
               "roles": {
                 "type": "array",
