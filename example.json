@@ -71,6 +71,7 @@
         "thumbnail": "",
         "big": ""
       }],
+      "roles": [""],
       "highlights": [""],
       "keywords": [""]
     }]
@@ -82,11 +83,11 @@
       "title": "",
       "description": "",
       "summary": "",
-      "role": "",
       "url": "",
       "repo": "",
       "start": "",
       "end": "",
+      "roles": [""],
       "highlights": [""],
       "keywords": [""]
     }]

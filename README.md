@@ -88,6 +88,7 @@ Structure Overview:
         "thumbnail": "",
         "big": ""
       }],
+      "roles": [""],
       "highlights": [""],
       "keywords": [""]
     }]
@@ -99,11 +100,11 @@ Structure Overview:
       "title": "",
       "description": "",
       "summary": "",
-      "role": "",
       "url": "",
       "repo": "",
       "start": "",
       "end": "",
+      "roles": [""],
       "highlights": [""],
       "keywords": [""]
     }]

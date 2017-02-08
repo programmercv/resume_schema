@@ -69,6 +69,7 @@
         "thumbnail": "",
         "big": ""
       }],
+      "roles": [""],
       "highlights": [""],
       "keywords": [""]
     }]
@@ -85,6 +86,7 @@
       "repo": "",
       "start": "",
       "end": "",
+      "roles": [""],
       "highlights": [""],
       "keywords": [""]
     }]

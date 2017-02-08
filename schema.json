@@ -261,6 +261,14 @@
                 "type": "string",
                 "description": "Repo URL."
               },
+              "start": {
+                "type": "string",
+                "description": "Date your work on the project began"
+              },
+              "end": {
+                "type": "string",
+                "description": "Date your work on the project ended"
+              },
               "images": {
                 "type": "array",            
                 "description": "Images and screenshots of the project",
@@ -278,13 +286,13 @@
                   }
                 }
               },
-              "start": {
-                "type": "string",
-                "description": "Date your work on the project began"
-              },
-              "end": {
-                "type": "string",
-                "description": "Date your work on the project ended"
+              "roles": {
+                "type": "array",
+                "description": "Your roles on this project",            
+                "items": {
+                  "type": "string",
+                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
+                }
               },
               "highlights": {
                 "type": "array",
@@ -333,10 +341,6 @@
                 "type": "string",
                 "description": "A summary of your achievements and responsibilities on the project."
               },
-              "role": {
-                "type": "string",
-                "description": "Your role on the project: Contributor, Creator, etc."
-              },
               "url": {
                 "type": "string",
                 "description": "Project URL."
@@ -352,6 +356,14 @@
               "end": {
                 "type": "string",
                 "description": "Date your involvement with project ended"
+              },
+              "roles": {
+                "type": "array",
+                "description": "Your roles on this project",            
+                "items": {
+                  "type": "string",
+                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
+                }
               },
               "highlights": {
                 "type": "array",
