@@ -251,7 +251,7 @@
               },
               "description": {
                 "type": "string",
-                "description": "Project description or summary."
+                "description": "Project description and summary of your achievements and responsibilities on the project."
               },
               "url": {
                 "type": "string",
@@ -339,11 +339,7 @@
               },
               "description": {
                 "type": "string",
-                "description": "Project description or summary."
-              },
-              "summary": {
-                "type": "string",
-                "description": "A summary of your achievements and responsibilities on the project."
+                "description": "Project description and summary of your achievements and responsibilities on the project."
               },
               "url": {
                 "type": "string",

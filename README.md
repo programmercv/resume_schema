@@ -100,7 +100,6 @@ Structure Overview:
     "history": [{
       "title": "",
       "description": "",
-      "summary": "",
       "url": "",
       "repo": "",
       "start": "",
