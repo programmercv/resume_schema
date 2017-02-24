@@ -67,7 +67,7 @@
       "repo": "",
       "startDate": "",
       "endDate": "",
-      "type": "",
+      "category": "",
       "images": [{            
         "thumbnail": "",
         "big": ""
@@ -87,7 +87,7 @@
       "repo": "",
       "startDate": "",
       "endDate": "",
-      "type": "",
+      "category": "",
       "roles": [""],
       "highlights": [""],
       "keywords": [""]

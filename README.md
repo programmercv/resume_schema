@@ -84,7 +84,7 @@ Structure Overview:
       "repo": "",
       "startDate": "",
       "endDate": "",
-      "type": "",
+      "category": "",
       "images": [{            
         "thumbnail": "",
         "big": ""
@@ -104,7 +104,7 @@ Structure Overview:
       "repo": "",
       "startDate": "",
       "endDate": "",
-      "type": "",
+      "category": "",
       "roles": [""],
       "highlights": [""],
       "keywords": [""]

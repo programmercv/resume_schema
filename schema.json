@@ -269,7 +269,7 @@
                 "type": "string",
                 "description": "Date your work on the project ended"
               },
-              "type": {
+              "category": {
                 "type": "string",
                 "description": "The type of the project. E.g. 'Software', 'iOs App', 'Mobile App', 'Desktop Software', 'API'"
               },
@@ -357,7 +357,7 @@
                 "type": "string",
                 "description": "Date your involvement with project ended"
               },
-              "type": {
+              "category": {
                 "type": "string",
                 "description": "The type of the project. E.g. 'Software', 'iOs App', 'Mobile App', 'Desktop Software', 'API'"
               },
