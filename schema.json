@@ -20,15 +20,15 @@
 
     "basics": {
       "type": "object",
-      "description": "Your basic information like the name, a label, an image, summary, quote, contact information, location information and social media profiles.",
+      "description": "Your basic information like the name, a label, an image, summary, contact information, location information and social media profiles.",
       "properties": {
         "name": {
           "type": "string",
-          "description": "The candidate's name as it should appear on the resume."          
+          "description": "Your name as it should appear on the resume."          
         },
         "label": {
           "type": "string",
-          "description": "A label for this resume, such as 'Full-Stack Developer'."
+          "description": "Your label, e.g. 'Full-Stack Developer', 'Web Developer', 'iOS Developer'."
         },
         "image": {
           "type": "string",
@@ -36,7 +36,7 @@
         },
         "summary": {
           "type": "string",
-          "description": "A short description or summary of yourself as a candidate."
+          "description": "A short description or summary of yourself."
         },
         "contact": {
           "type": "object",          
@@ -86,7 +86,7 @@
 
     "employment": {
       "type": "object",
-      "description": "Your formal employment history.",
+      "description": "Your employment summary and list of employment history.",
       "properties": {
         "summary": {
           "type": "string",
@@ -135,7 +135,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this employment.",
                 
                 "items": {
                   "type": "string",
@@ -150,7 +150,7 @@
 
     "education": {
       "type": "object",      
-      "description": "Your formal education, e.g. college and university.",
+      "description": "Your education summary and history, e.g. college and university",
       "properties": {
         "summary": {
           "type": "string",
@@ -163,7 +163,7 @@
             "properties": {
               "title": {
                 "type": "string",
-                "description": "A freeform title for this education stint. Typically, this should be the short name of your degree, certification, or training."
+                "description": "Title for this education. Typically, this should be the short name of your degree, certification, or training."
               },
               "institution": {
                 "type": "string",
@@ -219,7 +219,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this education.",
                 
                 "items": {
                   "type": "string",
@@ -414,10 +414,10 @@
               },
               "keywords": {
                 "type": "array",                
-                "description": "Keywords associated with this interest.",
+                "description": "Keywords associated with this skill.",
                 "items": {
                   "type": "string",
-                  "description": "A keyword relating to this interest."
+                  "description": "A keyword relating to this skill."
                 }
               }
             }
@@ -473,7 +473,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this qualification.",
                 
                 "items": {
                   "type": "string",
@@ -517,7 +517,7 @@
               },
               "summary": {
                 "type": "string",
-                "description": "A brief description of the award and why you received it."
+                "description": "A brief description of the recognition and why you received it."
               },
               "url": {
                 "type": "string",
@@ -533,7 +533,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this recognition.",
                 
                 "items": {
                   "type": "string",
@@ -552,7 +552,7 @@
       "properties": {
         "summary": {
           "type": "string",
-          "description:": "Summary of your overall writing experience."
+          "description:": "Summary of your overall writing history."
         },
         "history": {
           "type": "array",
@@ -593,7 +593,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this writing.",
                 
                 "items": {
                   "type": "string",
@@ -653,7 +653,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this reading.",
                 
                 "items": {
                   "type": "string",
@@ -709,7 +709,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this speaking.",
                 
                 "items": {
                   "type": "string",
@@ -769,7 +769,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this patent.",
                 
                 "items": {
                   "type": "string",
@@ -819,7 +819,7 @@
       "properties": {
         "summary": {
           "type": "string",
-          "description:": "Summary of interests."
+          "description:": "Summary of your interests."
         },
         "list": {
           "type": "array",
@@ -831,7 +831,8 @@
                 "description": "The name or title of the interest or hobby."            
               },
               "description": {
-                "type": "string"
+                "type": "string",
+                "description": "The description of the interest or hobby."
               }
             }
           }
@@ -882,7 +883,7 @@
               },
               "keywords": {
                 "type": "array",
-                "description": "Keywords associated with this service.",
+                "description": "Keywords associated with this extracurricular.",
                 
                 "items": {
                   "type": "string",
@@ -989,15 +990,15 @@
               },
               "organization": {
                 "type": "string",
-                "description": "The organization."            
+                "description": "The name of the organization or group"            
               },
               "start": {
                 "type": "string",
-                "description": "Start date."
+                "description": "Start date of your involvement"
               },
               "end": {
                 "type": "string",
-                "description": "End date."
+                "description": "End date of your involvement"
               },
               "keywords": {
                 "type": "array",
@@ -1135,7 +1136,7 @@
         },
         "authorization": {
           "type": "string",
-          "description": "Work authorization: citizen, work visa, etc."
+          "description": "Work authorization: citizen of country x, work visa for country y, etc"
         },
         "commitment": {
           "type": "array",          
