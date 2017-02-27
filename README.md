@@ -240,7 +240,7 @@ Structure Overview:
     "history": [{
       "category": "",
       "organization": "",
-      "roles": "",
+      "roles": [],
       "url": "",
       "startDate": "",
       "endDate": "",
@@ -256,7 +256,7 @@ Structure Overview:
     "history": [{
       "summary": "",
       "category": "",
-      "roles": "",
+      "roles": [],
       "organization": "",
       "startDate": "",
       "endDate": "",

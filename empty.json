@@ -222,7 +222,7 @@
     "history": [{
       "category": "",
       "organization": "",
-      "roles": "",
+      "roles": [],
       "url": "",
       "startDate": "",
       "endDate": "",
@@ -238,7 +238,7 @@
     "history": [{
       "summary": "",
       "category": "",
-      "roles": "",
+      "roles": [],
       "organization": "",
       "startDate": "",
       "endDate": "",
