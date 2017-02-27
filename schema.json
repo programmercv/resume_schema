@@ -917,9 +917,13 @@
                 "type": "string",
                 "description": "The name of the organization or group."                
               },
-              "role": {
-                "type": "string",
-                "description": "Your role in the organization or group."
+              "roles": {
+                "type": "array",
+                "description": "Your roles for this affiliation",            
+                "items": {
+                  "type": "string",
+                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
+                }
               },
               "url": {
                 "type": "string",
@@ -984,9 +988,13 @@
                 "type": "string",
                 "description": "Type of governance: committee, board, standards group, etc."
               },
-              "role": {
-                "type": "string",
-                "description": "Governance role: board member, contributor, director, etc."
+              "roles": {
+                "type": "array",
+                "description": "Your roles at this organization",            
+                "items": {
+                  "type": "string",
+                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
+                }
               },
               "organization": {
                 "type": "string",
