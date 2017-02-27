@@ -182,6 +182,7 @@ Structure Overview:
       "title": "",
       "event": "",
       "location": "",
+      "url": "",
       "date": "",
       "summary": "",
       "highlights": [],

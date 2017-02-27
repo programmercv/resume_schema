@@ -691,6 +691,10 @@
                 "type": "string",
                 "description": "Freeform location of the event, e.g., 'San Francisco, CA' or 'Tokyo'."
               },
+              "url": {
+                "type": "string",
+                "description": "URL of the event website, or to a video of the presentation."
+              },
               "date": {
                 "type": "string",
                 "description": "Presentation date."
