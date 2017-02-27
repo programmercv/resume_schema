@@ -861,9 +861,9 @@
                 "type": "string",
                 "description": "Title of the extracurricular activity."            
               },
-              "activity": {
+              "summary": {
                 "type": "string",
-                "description": "The extracurricular activity."            
+                "description": "Summary of the extracurricular activity."            
               },              
               "category": {
                 "type": "string",

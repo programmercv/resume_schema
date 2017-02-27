@@ -225,7 +225,7 @@ Structure Overview:
     "summary": "",
     "history": [{
       "title": "",
-      "activity": "",
+      "summary": "",
       "category": "",
       "location": "",
       "startDate": "",
