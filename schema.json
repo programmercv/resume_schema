@@ -1130,7 +1130,7 @@
               },
               "summary": {
                 "type": "string",
-                "description": "Optional summary information for this reference."
+                "description": "Summary information for this reference."
               }
             }
           }
