@@ -226,6 +226,7 @@ Structure Overview:
     "history": [{
       "title": "",
       "activity": "",
+      "category": "",
       "location": "",
       "startDate": "",
       "endDate": "",

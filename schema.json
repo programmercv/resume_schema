@@ -864,6 +864,10 @@
               "activity": {
                 "type": "string",
                 "description": "The extracurricular activity."            
+              },              
+              "category": {
+                "type": "string",
+                "description": "The category of the extracurricular experience. E.g conference, workshop, meetup etc."
               },
               "location": {
                 "type": "string",
