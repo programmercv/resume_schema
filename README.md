@@ -237,7 +237,7 @@ Structure Overview:
     }]
   },
 
-  "affiliation": {
+  "affiliations": {
     "summary": "",
     "history": [{
       "category": "",

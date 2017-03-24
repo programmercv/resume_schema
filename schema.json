@@ -912,7 +912,7 @@
       }
     },
 
-    "affiliation": {
+    "affiliations": {
       "type": "object",      
       "description": "Your membership in groups, clubs, organizations, and professional associations whether at the collegiate, corporate, or personal level.",
       "properties": {
