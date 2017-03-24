@@ -106,7 +106,8 @@
     "history": [{
       "category": "",
       "title": "",
-      "date": "",
+      "startDate": "",
+      "endDate": "",
       "from": "",
       "summary": "",
       "url": "",
@@ -120,7 +121,8 @@
     "history": [{
       "category": "",
       "title": "",
-      "date": "",
+      "startDate": "",
+      "endDate": "",
       "from": "",
       "summary": "",
       "url": "",

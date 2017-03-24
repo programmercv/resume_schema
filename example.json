@@ -181,7 +181,8 @@
       {
         "category": "Category of first qualification",
         "title": "Title of first qualification",
-        "date": "Date of first qualification",
+        "startDate": "01.01.2014",
+        "endDate": "01.01.2015",
         "from": "From of first qualification",
         "summary": "Summary of first qualification",
         "url": "Url of first qualification",
@@ -191,7 +192,8 @@
       {
         "category": "Category of second qualification",
         "title": "Title of second qualification",
-        "date": "Date of second qualification",
+        "startDate": "01.01.2014",
+        "endDate": "01.01.2015",
         "from": "From of second qualification",
         "summary": "Summary of second qualification",
         "url": "Url of second qualification",
@@ -207,7 +209,8 @@
       {
         "category": "Category of my first recognition",
         "title": "Title of my first recognition",
-        "date": "Date of my first recognition",
+        "startDate": "01-01-2010",
+        "endDate": "01-01-2011",
         "from": "From of my first recognition",
         "summary": "Summary of my first recognition",
         "url": "Url of my first recognition",
@@ -217,7 +220,8 @@
       {
         "category": "Category of my second recognition",
         "title": "Title of my second recognition",
-        "date": "Date of my second recognition",
+        "startDate": "01-01-2011",
+        "endDate": "01-01-2013",
         "from": "From of my second recognition",
         "summary": "Summary of my second recognition",
         "url": "Url of my second recognition",

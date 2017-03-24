@@ -124,7 +124,8 @@ Structure Overview:
     "history": [{
       "category": "",
       "title": "",
-      "date": "",
+      "startDate": "",
+      "endDate": "",
       "from": "",
       "summary": "",
       "url": "",
@@ -138,7 +139,8 @@ Structure Overview:
     "history": [{
       "category": "",
       "title": "",
-      "date": "",
+      "startDate": "",
+      "endDate": "",
       "from": "",
       "summary": "",
       "url": "",

@@ -443,9 +443,13 @@
                 "type": "string",
                 "description": "Title of the qualification."            
               },
-              "date": {
+              "startDate": {
                 "type": "string",
-                "description": "Date of the qualification."
+                "description": "Start date of the qualification"
+              },
+              "endDate": {
+                "type": "string",
+                "description": "End dateof the qualification"
               },
               "from": {
                 "type": "string",
@@ -503,9 +507,13 @@
                 "type": "string",
                 "description": "Title of the award or recognition."            
               },
-              "date": {
+              "startDate": {
                 "type": "string",
-                "description": "Date awarded"
+                "description": "Start date of the recognition"
+              },
+              "endDate": {
+                "type": "string",
+                "description": "End dateof the recognition"
               },
               "from": {
                 "type": "string",
