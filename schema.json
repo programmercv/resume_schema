@@ -848,7 +848,7 @@
       }
     },
 
-    "extracurricular": {
+    "extracurriculars": {
       "type": "object",
       "description": "Your involvement with industry-related events and enterprises outside of work. For example: attending conferences, workshops, or meetups.",      
       "properties": {

@@ -222,7 +222,7 @@ Structure Overview:
     }]
   },
 
-  "extracurricular": {
+  "extracurriculars": {
     "summary": "",
     "history": [{
       "title": "",
