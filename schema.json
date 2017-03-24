@@ -161,10 +161,6 @@
           "items": {
             "type": "object",            
             "properties": {
-              "title": {
-                "type": "string",
-                "description": "Title for this education. Typically, this should be the short name of your degree, certification, or training."
-              },
               "institution": {
                 "type": "string",
                 "description": "College or school name."                

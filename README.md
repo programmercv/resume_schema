@@ -59,7 +59,6 @@ Structure Overview:
   "education": {
     "summary": "",
     "history":[{
-      "title": "",
       "institution": "",
       "fieldOfStudy": "",
       "degree": "",

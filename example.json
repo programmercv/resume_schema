@@ -61,7 +61,6 @@
     "summary": "My education summary",
     "history":[
       {
-        "title": "Bachelor in Computer Science",
         "institution": "Harvard",
         "fieldOfStudy": "Computer Science",
         "degree": "Bachelor",
@@ -76,7 +75,6 @@
         "keywords": ["Keyword 1", "Keyword 2", "Keyword 3"]
       },
       {
-        "title": "Master in Computer Science",
         "institution": "Harvard",
         "fieldOfStudy": "Computer Science",
         "degree": "Master",
