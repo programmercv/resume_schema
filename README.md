@@ -258,6 +258,7 @@ Structure Overview:
     "history": [{
       "summary": "",
       "category": "",
+      "url": "",
       "roles": [],
       "organization": "",
       "startDate": "",

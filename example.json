@@ -431,6 +431,7 @@
         "category": "Category of my first governance experience",
         "roles": ["Role 1", "Role 2"],
         "organization": "Organization of my first governance experience",
+        "url": "http://Organization",
         "startDate": "Start date of my first governance experience",
         "endDate": "End date of my first governance experience",
         "keywords": ["Keyword 1", "Keyword 2", "Keyword 3"],
@@ -439,6 +440,7 @@
       {
         "summary": "Summary of my second governance experience",
         "category": "Category of my second governance experience",
+        "url": "http://experience",
         "roles": ["Role 1", "Role 2"],
         "organization": "Organization of my second governance experience",
         "startDate": "Start date of my second governance experience",
