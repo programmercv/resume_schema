@@ -1072,9 +1072,13 @@
                 "type": "string",
                 "description": "The service organization, such as Red Cross or National Guard."                
               },
-              "position": {
-                "type": "string",
-                "description": "Your position or formal service role."
+              "roles": {
+                "type": "array",
+                "description": "Your roles at this organization",            
+                "items": {
+                  "type": "string",
+                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
+                }
               },
               "url": {
                 "type": "string",

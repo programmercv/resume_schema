@@ -457,7 +457,7 @@
       {
         "category": "Category of my first service experience",
         "organization": "Organization of my first service experience",
-        "position": "Position of my first service experience",
+        "roles": ["Role 1", "Role 2"],
         "url": "Url of my first service experience",
         "startDate": "Start date of my first service experience",
         "endDate": "End date of my first service experience",
@@ -469,7 +469,7 @@
       {
         "category": "Category of my second service experience",
         "organization": "Organization of my second service experience",
-        "position": "Position of my second service experience",
+        "roles": ["Role 1", "Role 2"],
         "url": "Url of my second service experience",
         "startDate": "Start date of my second service experience",
         "endDate": "End date of my second service experience",

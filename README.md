@@ -273,7 +273,7 @@ Structure Overview:
     "history": [{
       "category": "",
       "organization": "",
-      "position": "",
+      "roles": [],
       "url": "",
       "startDate": "",
       "endDate": "",
