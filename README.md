@@ -228,6 +228,7 @@ Structure Overview:
       "title": "",
       "summary": "",
       "category": "",
+      "url": "",
       "location": "",
       "startDate": "",
       "endDate": "",
