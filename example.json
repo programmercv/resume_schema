@@ -70,7 +70,7 @@
         "grade": "1",
         "url": "http://harvard.com/cs",
         "summary": "Summary of my bachelor experience",
-        "location": "New York City, USA"
+        "location": "New York City, USA",
         "curriculum": ["Course 1", "Course 2", "Course 3"],
         "highlights": ["Hightlight 1", "Hightlight 2", "Hightlight 3"],
         "keywords": ["Keyword 1", "Keyword 2", "Keyword 3"]
@@ -85,7 +85,7 @@
         "grade": "1",
         "url": "http://harvard.com/cs",
         "summary": "Summary of my master experience",
-        "location": "New York City, USA"
+        "location": "New York City, USA",
         "curriculum": ["Course 1", "Course 2", "Course 3"],
         "highlights": ["Hightlight 1", "Hightlight 2", "Hightlight 3"],
         "keywords": ["Keyword 1", "Keyword 2", "Keyword 3"]
@@ -340,7 +340,7 @@
         "language": "English",
         "level": "Native",
         "years": "26"
-      }
+      },
       {
         "language": "French",
         "level": "Elementary",
