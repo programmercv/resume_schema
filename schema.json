@@ -1144,6 +1144,10 @@
                 "type": "string",
                 "description": "The occupation of this reference, or his or her relationship to the candidate."
               },
+              "company": {
+                "type": "string",
+                "description": "The company of this reference"
+              },
               "summary": {
                 "type": "string",
                 "description": "Summary information for this reference."

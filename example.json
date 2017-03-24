@@ -487,11 +487,13 @@
       {
         "name": "Angela Moss",
         "role": "Account Executive",
+        "company": "Allsafe Cybersecurity",
         "summary": "Elliot is a very loyal and competent employee."
       },
       {
         "name": " Gideon Goddard ",
-        "role": "CEO of Allsafe Cybersecurity",
+        "role": "CEO",
+        "company": "Allsafe Cybersecurity",
         "summary": "Elliot is a very loyal and competent employee."
       }
     ]

@@ -289,6 +289,7 @@ Structure Overview:
     "history": [{
       "name": "",
       "role": "",
+      "company": "",
       "summary": ""
     }]
   },
