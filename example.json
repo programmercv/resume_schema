@@ -161,7 +161,7 @@
 
   "skills": {
     "summary": "Summary of my skills",
-    "history": [
+    "sets": [
       {
         "name": "Skill one",
         "description": "Description of first skill",

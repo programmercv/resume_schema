@@ -112,7 +112,7 @@ Structure Overview:
 
   "skills": {
     "summary": "",
-    "history": [{
+    "sets": [{
       "name": "",
       "description": "",
       "keywords": [""]
