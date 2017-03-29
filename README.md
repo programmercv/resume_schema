@@ -1,6 +1,4 @@
-### programmercv Résumé Schema
-
-The programmercv Résumé Standard is an open source [JSON Schema](http://json-schema.org/) Definition to store résumé data.
+### An open source [JSON Schema](http://json-schema.org/) Definition to store résumé data
 
 It is heavily influenced by the existing resume standards [FRESCA](https://github.com/fresh-standard/FRESCA) and [JSONResume](https://github.com/jsonresume/resume-schema), then cherry-picked and adopted to the needs and requirements of [programmercv](https://prtfl.io) and [RésuméExporter](https://github.com/prtflio/resume_exporter).
 
