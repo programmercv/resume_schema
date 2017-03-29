@@ -207,7 +207,7 @@ Structure Overview:
 
   "languages": {
     "summary": "",
-    "history": [{
+    "list": [{
       "language": "",
       "level": "",
       "years": ""
@@ -216,7 +216,7 @@ Structure Overview:
 
   "interests": {
     "summary": "",
-    "history": [{
+    "list": [{
       "name": "",
       "description": ""
     }]

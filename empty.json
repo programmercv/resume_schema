@@ -189,7 +189,7 @@
 
   "languages": {
     "summary": "",
-    "history": [{
+    "list": [{
       "language": "",
       "level": "",
       "years": ""
@@ -198,7 +198,7 @@
 
   "interests": {
     "summary": "",
-    "history": [{
+    "list": [{
       "name": "",
       "description": ""
     }]

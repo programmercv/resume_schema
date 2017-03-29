@@ -337,7 +337,7 @@
 
   "languages": {
     "summary": "Summary of my language experience",
-    "history": [
+    "list": [
       {
         "language": "English",
         "level": "Native",
@@ -353,7 +353,7 @@
 
   "interests": {
     "summary": "Summary of my interests",
-    "history": [
+    "list": [
       {
         "name": "First Interest",
         "description": "Description of first interest"
