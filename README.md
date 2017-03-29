@@ -222,7 +222,7 @@ Structure Overview:
     }]
   },
 
-  "extracurriculars": {
+  "extracurricular": {
     "summary": "",
     "history": [{
       "title": "",
@@ -237,7 +237,7 @@ Structure Overview:
     }]
   },
 
-  "affiliations": {
+  "affiliation": {
     "summary": "",
     "history": [{
       "category": "",

@@ -365,7 +365,7 @@
     ]
   },
 
-  "extracurriculars": {
+  "extracurricular": {
     "summary": "Summary of my extracurricular involvement",
     "history": [
       {
@@ -393,7 +393,7 @@
     ]
   },
 
-  "affiliations": {
+  "affiliation": {
     "summary": "Summary of my affiliation",
     "history": [
       {

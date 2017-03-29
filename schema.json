@@ -848,9 +848,9 @@
       }
     },
 
-    "extracurriculars": {
+    "extracurricular": {
       "type": "object",
-      "description": "Your involvement with industry-related events and enterprises outside of work. For example: attending conferences, workshops, or meetups.",      
+      "description": "Your involvement with industry-related events and enterprises outside of work. For example: attending conferences, workshops, hackathon or meetups.",      
       "properties": {
         "summary": {
           "type": "string",
@@ -871,7 +871,7 @@
               },              
               "category": {
                 "type": "string",
-                "description": "The category of the extracurricular experience. E.g conference, workshop, meetup etc."
+                "description": "The category of the extracurricular experience. E.g conference, workshop, meetup, hackathon etc."
               },
               "location": {
                 "type": "string",
@@ -912,7 +912,7 @@
       }
     },
 
-    "affiliations": {
+    "affiliation": {
       "type": "object",      
       "description": "Your membership in groups, clubs, organizations, and professional associations whether at the collegiate, corporate, or personal level.",
       "properties": {
