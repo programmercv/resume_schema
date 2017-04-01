@@ -927,7 +927,7 @@
             "properties": {
               "category": {
                 "type": "string",
-                "description": "The type of affiliation: club, union, meetup, etc."
+                "description": "The type of affiliation: club, group, organization, non-profit etc."
               },
               "organization": {
                 "type": "string",
