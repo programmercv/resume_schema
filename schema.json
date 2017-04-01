@@ -513,7 +513,7 @@
               },
               "endDate": {
                 "type": "string",
-                "description": "End dateof the recognition"
+                "description": "End date of the recognition"
               },
               "from": {
                 "type": "string",
