@@ -92,10 +92,6 @@
       "type": "object",
       "description": "Your employment summary and list of employment history.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of overall employment."
-        },
         "history": {
           "type": "array",          
           "items": {
@@ -156,10 +152,6 @@
       "type": "object",      
       "description": "Your education summary and history, e.g. college and university",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of overall education."
-        },
         "history": {
           "type": "array",          
           "items": {
@@ -236,10 +228,6 @@
       "type": "object",
       "description": "The personal projects you worked on.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of the projects you worked on."
-        },
         "history": {
           "type": "array",        
           "items": {
@@ -324,10 +312,6 @@
       "type": "object",      
       "description": "The open-source projects you worked on or contributed to.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your open-source involvement."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -395,10 +379,6 @@
       "type": "object",          
       "description": "Your formal skills and capabilities.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your skills."
-        },
         "sets": {
           "type": "array",
           "items": {
@@ -430,10 +410,6 @@
       "type": "object",
       "description": "Your qualifications for the job: e.g. certificates, test scores, continuing education, standalone programs and courses.",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your qualifications."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -494,10 +470,6 @@
       "type": "object",
       "description": "Your public or professional plaudits, kudos, awards, and other forms of positive external reinforcement.",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your overall recognition."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -558,10 +530,6 @@
       "type": "object",
       "description": "Your writing and publication history, from blogs and essays to novels and dissertations.",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your overall writing history."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -618,10 +586,6 @@
       "type": "object",
       "description": "Your reading habits. It is intended to demonstrate familiarity with industry-relevant publications, blogs, books, or other media that a competent industry candidate should be expected to know.",     
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your overall reading habits."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -678,10 +642,6 @@
       "type": "object",      
       "section": "Your speaking engagements and presentations.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of overall speaking experience."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -738,10 +698,6 @@
       "type": "object",
       "description": "The patents you are holding",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of patents."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -798,10 +754,6 @@
       "type": "object",
       "description": "Your knowledge of world languages such as English, Spanish, or Chinese.",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of language experience."
-        },
         "list": {
           "type": "array",
           "items": {
@@ -829,10 +781,6 @@
       "type": "object",      
       "description": "Your interests and enthusiasms outside of work.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your interests."
-        },
         "list": {
           "type": "array",
           "items": {
@@ -856,10 +804,6 @@
       "type": "object",
       "description": "Your involvement with industry-related events and enterprises outside of work. For example: attending conferences, workshops, hackathon or meetups.",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your overall extracurricular experience."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -920,10 +864,6 @@
       "type": "object",      
       "description": "Your membership in groups, clubs, organizations, and professional associations whether at the collegiate, corporate, or personal level.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description": "Optional summary of overall affiliation and membership experience."
-        },
         "history": {
           "type": "array",          
           "items": {
@@ -991,10 +931,6 @@
       "type": "object",      
       "description": "Your leadership, standards, board, and committee roles.",
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your overall governance experience."
-        },
         "history": {
           "type": "array",
           "items": {
@@ -1059,10 +995,6 @@
       "type": "object",
       "description": "Your overall service history in the true sense of the word 'service': volunteer work, military participation, civilian core, rescue and emergency services, and the like.",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description": "Summary of overall service/volunteer experience."
-        },
         "history": {
           "type": "array",          
           "items": {
@@ -1131,10 +1063,6 @@
       "type": "object",
       "description": "Your personal, professional, and/or technical references.",      
       "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your references."
-        },
         "list": {
           "type": "array",
           "items": {

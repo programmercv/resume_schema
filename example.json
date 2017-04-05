@@ -31,7 +31,6 @@
   },
 
   "employment": {
-    "summary": "10+ years industry experience specializing in cybersecurity",
     "history": [
       {
         "employer": "Allsafe Cybersecurity",
@@ -65,7 +64,6 @@
   },
 
   "education": {
-    "summary": "I received a Bachelor's degree in Computer Sience from Columbia University, New York City. I then specialized with a Master's degree in Computer Security also at CU NY.",
     "history":[
       {
         "institution": "Columbia University",
@@ -102,7 +100,6 @@
   },
 
   "projects": {
-    "summary": "In my spare time I like to play around with new technologies. I'm always trying to improve my skills as a security expert, and personal projects are a great way to do that.",
     "history": [
       {
         "title": "OpenDoor",
@@ -123,7 +120,6 @@
   },
 
   "openSource": {
-    "summary": "I'm also involved in several open-source projects related to online security, privacy and user freedom.",
     "history": [
       {
         "title": "Tor",
@@ -158,7 +154,6 @@
   },
 
   "skills": {
-    "summary": "I have been programming for over 20 years, 10 of those professionaly as an employed software engineer. In the last 5 years of my career I have specialized in cyber security.",
     "sets": [
       {
         "name": "Computer Security",
@@ -174,7 +169,6 @@
   },
 
   "qualifications": {
-    "summary": "Additionally to my bachelor and master degree I try to keep up with current technology, by taking part in online courses and getting certified by third party vendors.",
     "history": [
       {
         "category": "Course",
@@ -209,7 +203,6 @@
   },
 
   "recognition": {
-    "summary": "",
     "history": [
       {
         "category": "Award",
@@ -229,7 +222,6 @@
   },
 
   "writing": {
-    "summary": "After extensive studying and exploring current technologies in the cryptography field, I summarized my findings in my first book 'Applied Cryptography'",
     "history": [
       {
         "title": "Applied Cryptography",
@@ -248,7 +240,6 @@
   },
 
   "reading": {
-    "summary": "I like to stay on top of current technologies by reading a lot of books. The most impressive and transformative book that I read this year was Post-Quantum Cryptography, by Daniel J. Bernstein and Johannes Buchmann.",
     "history": [
       {
         "title": "Post-Quantum Cryptography",
@@ -267,7 +258,6 @@
   },
 
   "speaking": {
-    "summary": "This year I gave my first talk at a big conference. I want to do more of them, and I've already been asked and agreed to speak at multiple conferences the following year.",
     "history": [
       {
         "title": "Viability and the future of cryptocurrencies",
@@ -285,7 +275,6 @@
   },
 
   "patents": {
-    "summary": "Through my work on F-coin (see projects section), I gained deep insight in cryptocurrency and was able to patent some of my break-throughs.",
     "history": [
       {
         "title": "Anonymous peer-to-peer verification through cryptographic key-address mapping",
@@ -303,7 +292,6 @@
   },
 
   "languages": {
-    "summary": "I was born and grew up in the US, so english is my native language. Currently I'm learning basic french on duolingo.",
     "list": [
       {
         "language": "English",
@@ -319,7 +307,6 @@
   },
 
   "interests": {
-    "summary": "",
     "list": [
       {
         "name": "Arduino",
@@ -333,7 +320,6 @@
   },
 
   "extracurricular": {
-    "summary": "",
     "history": [
       {
         "title": "BitcoinNYC",
@@ -352,7 +338,6 @@
   },
 
   "affiliation": {
-    "summary": "I'm a member of a few non-profit organizations related to internet privacy, I'm most involved with the EFF, though.",
     "history": [
       {
         "category": "Non-Profit Organization",
@@ -373,7 +358,6 @@
   },
 
   "governance": {
-    "summary": "I'm a technology advisor to several non-profit organizations, I am most proud about the work with tor browser.",
     "history": [
       {
         "summary": "Protect your privacy. Defend yourself against network surveillance and traffic analysis.",
@@ -392,7 +376,6 @@
   },
 
   "service": {
-    "summary": "",
     "history": [
       {
         "category": "Non-Profit Organization",
@@ -412,7 +395,6 @@
   },
 
   "references": {
-    "summary": "",
     "history": [
       {
         "name": "Angela Moss",
