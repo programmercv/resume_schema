@@ -85,7 +85,7 @@
     "history": [
       {
         "title": "OpenDoor",
-        "description": "A tool to check a system for open ports and other known security holes",
+        "summary": "A tool to check a system for open ports and other known security holes",
         "url": "https://opendoor.org",
         "repo": "https://github.com/elliotalderson/opendoor",
         "startDate": "01.01.2014",
@@ -100,7 +100,7 @@
     "history": [
       {
         "title": "Tor",
-        "description": "Tor is free software and an open network that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security.",
+        "summary": "Tor is free software and an open network that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security.",
         "url": "https://www.torproject.org/",
         "repo": "https://gitweb.torproject.org/tor.git",
         "startDate": "01.01.2010",
@@ -109,7 +109,7 @@
       },
       {
         "title": "F-coin",
-        "description": "F-coin is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license",
+        "summary": "F-coin is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license",
         "url": "http://fcoin.org",
         "repo": "http://git.fcoin.org",
         "startDate": "01.01.2015",
@@ -124,12 +124,12 @@
     "sets": [
       {
         "name": "Computer Security",
-        "description": "Although to completely secure a system you have to know every layer of the stack, there are some common tools that I use on a regular basis.",
+        "summary": "Although to completely secure a system you have to know every layer of the stack, there are some common tools that I use on a regular basis.",
         "keywords": ["OSPF", "BGP", "SSH", "ModSecurity", "Fail2Ban", "RKHunter", "Nmap", "IAM", "UNIX", "IPSec", "VPN", "EIGRP"]
       },
       {
         "name": "Programming",
-        "description": "I use the tool which is right for the job, and I am certain I can pick up any programming language that is necessary to get the task done.",
+        "summary": "I use the tool which is right for the job, and I am certain I can pick up any programming language that is necessary to get the task done.",
         "keywords": ["C", "C++", "Java", "PHP"]
       }
     ]
@@ -224,7 +224,7 @@
         "url": "https://patents.google.com/patent/US11111FAKE1234",
         "number": "US11111FAKE1234",
         "status": "Issued",
-        "description": "Disclosed is a method for peer-to-peer verification through cryptography key-address mapping, which allows users of a cryptocurrency to verify the authenticity of a transaction without the need to disclose privat information of involved parties.",
+        "summary": "Disclosed is a method for peer-to-peer verification through cryptography key-address mapping, which allows users of a cryptocurrency to verify the authenticity of a transaction without the need to disclose privat information of involved parties.",
         "date": "01.01.2016",
         "keywords": ["F-coin", "cryptocurrency"]
       }
@@ -250,11 +250,11 @@
     "list": [
       {
         "name": "Arduino",
-        "description": "I love to play around with hardware once in a while. I build myself a simple cellphone (on Arduino). Next I want remove the arduino, and custom print my chip design to get the size down."
+        "summary": "I love to play around with hardware once in a while. I build myself a simple cellphone (on Arduino). Next I want remove the arduino, and custom print my chip design to get the size down."
       },
       {
         "name": "Gaming",
-        "description": "I don't play as often as I used to, but once in a while I still love to loose myself in a great game."
+        "summary": "I don't play as often as I used to, but once in a while I still love to loose myself in a great game."
       }
     ]
   },

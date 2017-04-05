@@ -54,7 +54,7 @@
   "projects": {
     "history": [{
       "title": "",
-      "description": "",
+      "summary": "",
       "url": "",
       "repo": "",
       "startDate": "",
@@ -71,7 +71,7 @@
   "openSource": {
     "history": [{
       "title": "",
-      "description": "",
+      "summary": "",
       "url": "",
       "repo": "",
       "startDate": "",
@@ -84,7 +84,7 @@
   "skills": {
     "sets": [{
       "name": "",
-      "description": "",
+      "summary": "",
       "keywords": [""]
     }]
   },
@@ -157,7 +157,7 @@
       "url": "",
       "number": "",
       "status": "",
-      "description": "",
+      "summary": "",
       "date": "",
       "keywords": []
     }]
@@ -174,7 +174,7 @@
   "interests": {
     "list": [{
       "name": "",
-      "description": ""
+      "summary": ""
     }]
   },
 

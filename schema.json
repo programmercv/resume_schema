@@ -213,7 +213,7 @@
                 "type": "string",
                 "description": "Project name or code-name."            
               },
-              "description": {
+              "summary": {
                 "type": "string",
                 "description": "Project description and summary of your achievements and responsibilities on the project."
               },
@@ -281,7 +281,7 @@
                 "type": "string",
                 "description": "Project name or code-name."   
               },
-              "description": {
+              "summary": {
                 "type": "string",
                 "description": "Project description and summary of your achievements and responsibilities on the project."
               },
@@ -332,7 +332,7 @@
                 "type": "string",
                 "description": "Name of the skill: 'Programming', 'Frameworks', 'Programming Languages', 'Project Management' etc."                
               },
-              "description": {
+              "summary": {
                 "type": "string",
                 "description": "Description of the skill."
               },
@@ -623,7 +623,7 @@
                 "type": "string",
                 "description": "Patent status, e.g. pending or granted"
               },
-              "description": {
+              "summary": {
                 "type": "string",
                 "description": "Description of the patent"
               },
@@ -686,7 +686,7 @@
                 "type": "string",
                 "description": "The name or title of the interest or hobby."            
               },
-              "description": {
+              "summary": {
                 "type": "string",
                 "description": "The description of the interest or hobby."
               }
