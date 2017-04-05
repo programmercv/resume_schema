@@ -125,14 +125,6 @@
                 "type": "string",
                 "description": "Freeform location of the job or position, e.g., 'San Francisco, CA' or 'Tokyo'."
               },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
-              },
               "keywords": {
                 "type": "array",
                 "description": "Keywords associated with this employment.",
@@ -181,14 +173,6 @@
                 "type": "string",
                 "description": "Grade or GPA."
               },
-              "curriculum": {
-                "type": "array",
-                "description": "Notable courses, subjects, and educational experiences.",                
-                "items": {
-                  "type": "string",
-                  "description": "The course name and number or other identifying info."
-                }
-              },
               "url": {
                 "type": "string",
                 "description": "Website or URL of the institution or school."
@@ -200,14 +184,6 @@
               "location": {
                 "type": "string",
                 "description": "Freeform location of the education, e.g., 'San Francisco, CA' or 'Tokyo'."
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
               },
               "keywords": {
                 "type": "array",
@@ -278,22 +254,6 @@
                   }
                 }
               },
-              "roles": {
-                "type": "array",
-                "description": "Your roles on this project",            
-                "items": {
-                  "type": "string",
-                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
-                }
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy project-related achievements and/or highlights.",            
-                "items": {
-                  "type": "string",
-                  "description": "For ex, '#1 app on Itunes in the Fitness category'."
-                }
-              },
               "keywords": {
                 "type": "array",
                 "description": "Keywords associated with this project.",            
@@ -344,22 +304,6 @@
               "category": {
                 "type": "string",
                 "description": "The type of the project. E.g. 'Software', 'iOs App', 'Mobile App', 'Desktop Software', 'API'"
-              },
-              "roles": {
-                "type": "array",
-                "description": "Your roles on this project",            
-                "items": {
-                  "type": "string",
-                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
-                }
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy project-related achievements and/or highlights.",            
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Active contributer to the project, with lots of issues raised and 7 pull-request accepted'."
-                }
               },
               "keywords": {
                 "type": "array",
@@ -443,14 +387,6 @@
                 "type": "string",
                 "description": "A webpage or other associated URL."
               },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
-              },
               "keywords": {
                 "type": "array",
                 "description": "Keywords associated with this qualification.",
@@ -503,14 +439,6 @@
                 "type": "string",
                 "description": "A webpage or other associated URL."
               },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
-              },
               "keywords": {
                 "type": "array",
                 "description": "Keywords associated with this recognition.",
@@ -558,14 +486,6 @@
               "summary": {
                 "type": "string",
                 "description": "A brief summary of the publication."
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
               },
               "keywords": {
                 "type": "array",
@@ -615,14 +535,6 @@
                 "type": "string",
                 "description": "A brief description of the book, magazine, etc."
               },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
-              },
               "keywords": {
                 "type": "array",
                 "description": "Keywords associated with this reading.",
@@ -671,14 +583,6 @@
                 "type": "string",
                 "description": "A description of this speaking engagement."
               },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
-              },
               "keywords": {
                 "type": "array",
                 "description": "Keywords associated with this speaking.",
@@ -726,14 +630,6 @@
               "date": {
                 "type": "string",
                 "description": "Date of the patent granted, or application filed"
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
               },
               "keywords": {
                 "type": "array",
@@ -837,14 +733,6 @@
                 "type": "string",
                 "description": "End date."
               },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
-              },
               "keywords": {
                 "type": "array",
                 "description": "Keywords associated with this extracurricular.",
@@ -877,14 +765,6 @@
                 "type": "string",
                 "description": "The name of the organization or group."                
               },
-              "roles": {
-                "type": "array",
-                "description": "Your roles for this affiliation",            
-                "items": {
-                  "type": "string",
-                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
-                }
-              },
               "url": {
                 "type": "string",
                 "description": "Organization website."
@@ -900,14 +780,6 @@
               "summary": {
                 "type": "string",
                 "description": "A summary of your achievements and responsibilities during this affiliation."
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
               },
               "keywords": {
                 "type": "array",
@@ -944,14 +816,6 @@
                 "type": "string",
                 "description": "Type of governance: committee, board, standards group, etc."
               },
-              "roles": {
-                "type": "array",
-                "description": "Your roles at this organization",            
-                "items": {
-                  "type": "string",
-                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
-                }
-              },
               "organization": {
                 "type": "string",
                 "description": "The name of the organization or group"            
@@ -975,14 +839,6 @@
                 "items": {
                   "type": "string",
                   "description": "For example, C++, CRM, HIPAA."
-                }
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",            
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Increased company profits by 35% year over year'."
                 }
               }
             }
@@ -1008,14 +864,6 @@
                 "type": "string",
                 "description": "The service organization, such as Red Cross or National Guard."                
               },
-              "roles": {
-                "type": "array",
-                "description": "Your roles at this organization",            
-                "items": {
-                  "type": "string",
-                  "description": "e.g. Team Lead, Contributor, Designer, Programmer, Speaker, Writer"
-                }
-              },
               "url": {
                 "type": "string",
                 "description": "Organization website."
@@ -1035,14 +883,6 @@
               "location": {
                 "type": "string",
                 "description": "Freeform location of the position, e.g., 'San Francisco, CA' or 'Tokyo'."
-              },
-              "highlights": {
-                "type": "array",
-                "description": "Noteworthy achievements and/or highlights.",                
-                "items": {
-                  "type": "string",
-                  "description": "For ex, 'Served on board of directors of national non-profit organization with 20,000 members.'."
-                }
               },
               "keywords": {
                 "type": "array",
