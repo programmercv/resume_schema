@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "prtfl.io Resume Schema",
+  "title": "ProgrammerCV Resume Schema",
   "type": "object",
   "properties": {
     "meta": {
@@ -9,11 +9,11 @@
       "properties": {
         "format": {
           "type": "string",
-          "description": "The canonical resume format and version. E.g. 'PRTFLIO@0.0.1'."          
+          "description": "The canonical resume format and version. E.g. 'PROGRAMMERCV@1.0.0'."          
         },
         "version": {
           "type": "string",
-          "description": "The semantic version number for this resume. E.g. 0.0.1"
+          "description": "The semantic version number for this resume. E.g. 1.0.0"
         }
       }
     },
