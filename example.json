@@ -88,9 +88,9 @@
         "summary": "A tool to check a system for open ports and other known security holes",
         "url": "https://opendoor.org",
         "repo": "https://github.com/elliotalderson/opendoor",
+        "category": "Command line application",
         "startDate": "01.01.2014",
         "endDate": "Present",
-        "category": "Desktop Application",
         "keywords": ["C++"]
       }
     ]
@@ -102,6 +102,7 @@
         "title": "Tor",
         "summary": "Tor is free software and an open network that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security.",
         "url": "https://www.torproject.org/",
+        "category": "Desktop Application",
         "repo": "https://gitweb.torproject.org/tor.git",
         "startDate": "01.01.2010",
         "endDate": "Present",
@@ -111,10 +112,10 @@
         "title": "F-coin",
         "summary": "F-coin is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license",
         "url": "http://fcoin.org",
+        "category": "Cryptocurrency",
         "repo": "http://git.fcoin.org",
         "startDate": "01.01.2015",
         "endDate": "Present",
-        "category": "Cryptocurrency",
         "keywords": ["Cryptocurrency", "C++"]
       }
     ]
@@ -141,7 +142,7 @@
         "category": "Course",
         "title": "Cybersecurity Specialization",
         "startDate": "01.01.2015",
-        "endDate": "End date of first qualification",
+        "endDate": "",
         "from": "University of Maryland",
         "summary": "The Cybersecurity Specialization covers the fundamental concepts underlying the construction of secure systems, from the hardware to the software to the human-computer interface, with the use of cryptography to secure interactions.",
         "url": "https://www.coursera.org/specializations/cyber-security#courses",
@@ -151,7 +152,7 @@
         "category": "Certification",
         "title": "ITIL® Master Qualification (ITILMA)",
         "startDate": "01.01.2012",
-        "endDate": "Present",
+        "endDate": "",
         "from": "Exin",
         "summary": "The ITIL Master Qualification Certificate validates the capability of the candidate to apply the principles, methods and techniques from ITIL in the workplace.",
         "url": "https://www.exin.com/NL/en/certifications/&fw=itil-v3",
