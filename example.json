@@ -9,6 +9,7 @@
     "label": "Cybersecurity Engineer",
     "image": "http://40.media.tumblr.com/31d92e5030572f2d0b58ccf0b8931c68/tumblr_o1jnk8J4Bv1uba6jio1_250.jpg",
     "summary": "Highly talented and accomplished IT professional with 10+ years industry experience specializing in cybersecurity. Proven ability to deploy, administrate, maintain and secure IT infrastructures. Also, I'm an imaginary software engineer from the american drama–thriller television series <i>Mr. Robot</i>, created by Sam Esmail.",
+    "disposition": "I'm looking for consulting work as a full time contractor for companies based in NYC or companies that allow remote work.",
     "contact": {
       "email": "elliotalderson@lavabit.com",
       "phone": "0001-0101-1010101111",
@@ -426,17 +427,5 @@
         "summary": "Elliot is a very loyal and competent employee."
       }
     ]
-  },
-
-  "disposition": {
-    "summary": "I'm looking for consulting work as a full time contractor for companies based in NYC or companies that allow remote work.",    
-    "travel": 20,
-    "authorization": "Visa for USA",
-    "commitment": ["Contracting", "Full-time"],
-    "remote": true,
-    "relocation": {
-      "willing": true,
-      "destinations": ["Europe", "Hong Kong"]
-    }    
   }
 }

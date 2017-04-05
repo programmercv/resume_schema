@@ -9,6 +9,7 @@
     "label": "",
     "image": "",
     "summary": "",
+    "disposition": "",
     "contact": {
       "email": "",
       "phone": "",
@@ -273,17 +274,5 @@
       "company": "",
       "summary": ""
     }]
-  },
-
-  "disposition": {
-    "summary": "",
-    "travel": 20,
-    "authorization": "",
-    "commitment": [],
-    "remote": true,
-    "relocation": {
-      "willing": true,
-      "destinations": []
-    }    
   }
 }

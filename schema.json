@@ -38,6 +38,10 @@
           "type": "string",
           "description": "A short description or summary of yourself."
         },
+        "disposition": {
+          "type": "string",
+          "description": "Your overall attitude towards new employment opportunities including: travel, relocation, schedule, desired type of work, work authorization (e.g. Visas)"
+        },
         "contact": {
           "type": "object",          
           "description": "Contact information, including phone numbers, emails, websites, IMs, and custom contact types.",
@@ -1151,54 +1155,6 @@
               "summary": {
                 "type": "string",
                 "description": "Summary information for this reference."
-              }
-            }
-          }
-        }
-      }
-    },
-
-    "disposition": {
-      "type": "object",      
-      "description": "Your overall attitude towards new employment opportunities including: travel, relocation, schedule, desired type of work, and the like.",
-      "properties": {
-        "summary": {
-          "type": "string",
-          "description:": "Summary of your overall attitude."
-        },
-        "travel": {
-          "type": "integer",
-          "description": "Percentage of time willing to travel (0 to 100)."
-        },
-        "authorization": {
-          "type": "string",
-          "description": "Work authorization: citizen of country x, work visa for country y, etc"
-        },
-        "commitment": {
-          "type": "array",          
-          "description": "Types of work commitment desired: contract, perm, seasonal, etc.",
-          "items": {
-            "type": "string",
-            "description": "One of: contract, permanent, part-time, seasonal, full-time."
-          }
-        },
-        "remote": {
-          "type": "boolean",
-          "description": "Open to remote employment opportunities."
-        },
-        "relocation": {
-          "type": "object",          
-          "properties": {
-            "willing": {
-              "type": "boolean",
-              "description": "Willingness to relocate."
-            },
-            "destinations": {
-              "type": "array",
-              "description": "Preferred destinations for relocation",              
-              "items": {
-                "type": "string",
-                "description": "City or area of relocation."
               }
             }
           }
