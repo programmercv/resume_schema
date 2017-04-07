@@ -23,109 +23,93 @@
     }
   },
 
-  "employment": {
-    "history": [{          
-      "employer": "",
-      "position": "",
-      "url": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "location": "",
-      "keywords": [""]
-    }]
-  },
+  "employment": [{          
+    "employer": "",
+    "position": "",
+    "url": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "location": "",
+    "keywords": [""]
+  }],
 
-  "education": {
-    "history":[{
-      "institution": "",
-      "fieldOfStudy": "",
-      "degree": "",
-      "startDate": "",
-      "endDate": "",
-      "grade": "",
-      "url": "",
-      "summary": "",
-      "location": "",
-      "keywords": [""]
-    }]
-  },
+  "education": [{
+    "institution": "",
+    "fieldOfStudy": "",
+    "degree": "",
+    "startDate": "",
+    "endDate": "",
+    "grade": "",
+    "url": "",
+    "summary": "",
+    "location": "",
+    "keywords": [""]
+  }],
 
-  "projects": {
-    "history": [{
-      "title": "",
-      "summary": "",
-      "url": "",
-      "repo": "",
-      "startDate": "",
-      "endDate": "",
-      "category": "",
-      "images": [{            
-        "thumbnail": "",
-        "big": ""
-      }],
-      "keywords": [""]
-    }]
-  },
+  "projects": [{
+    "title": "",
+    "summary": "",
+    "url": "",
+    "repo": "",
+    "startDate": "",
+    "endDate": "",
+    "category": "",
+    "images": [{            
+      "thumbnail": "",
+      "big": ""
+    }],
+    "keywords": [""]
+  }],
 
-  "openSource": {
-    "history": [{
-      "title": "",
-      "summary": "",
-      "url": "",
-      "repo": "",
-      "startDate": "",
-      "endDate": "",
-      "category": "",
-      "keywords": [""]
-    }]
-  },
+  "openSource": [{
+    "title": "",
+    "summary": "",
+    "url": "",
+    "repo": "",
+    "startDate": "",
+    "endDate": "",
+    "category": "",
+    "keywords": [""]
+  }],
 
-  "skills": {
-    "sets": [{
-      "name": "",
-      "summary": "",
-      "keywords": [""]
-    }]
-  },
+  "skills": [{
+    "name": "",
+    "summary": "",
+    "keywords": [""]
+  }],
 
-  "qualifications": {
-    "history": [{
-      "category": "",
-      "title": "",
-      "startDate": "",
-      "endDate": "",
-      "from": "",
-      "summary": "",
-      "url": "",
-      "keywords": []
-    }]
-  },
+  "qualifications": [{
+    "category": "",
+    "title": "",
+    "startDate": "",
+    "endDate": "",
+    "from": "",
+    "summary": "",
+    "url": "",
+    "keywords": []
+  }],
 
-  "recognition": {
-    "history": [{
-      "category": "",
-      "title": "",
-      "startDate": "",
-      "endDate": "",
-      "from": "",
-      "summary": "",
-      "url": "",
-      "keywords": []
-    }]
-  },
+  "recognition": [{
+    "category": "",
+    "title": "",
+    "startDate": "",
+    "endDate": "",
+    "from": "",
+    "summary": "",
+    "url": "",
+    "keywords": []
+  }],
 
-  "writing": {
-    "history": [{
-      "title": "",
-      "category": "",
-      "date": "",
-      "url": "",
-      "publisher": "",
-      "summary": "",
-      "keywords": []
-    }]
-  },
+  "writing": [{
+    "title": "",
+    "category": "",
+    "date": "",
+    "url": "",
+    "publisher": "",
+    "summary": "",
+    "keywords": []
+  }],
 
   "reading": {
     "history": [{
@@ -139,106 +123,88 @@
     }]
   },
 
-  "speaking": {
-    "history": [{
-      "title": "",
-      "event": "",
-      "location": "",
-      "url": "",
-      "date": "",
-      "summary": "",
-      "keywords": []
-    }]
-  },
+  "speaking": [{
+    "title": "",
+    "event": "",
+    "location": "",
+    "url": "",
+    "date": "",
+    "summary": "",
+    "keywords": []
+  }],
 
-  "patents": {
-    "history": [{
-      "title": "",
-      "url": "",
-      "number": "",
-      "status": "",
-      "summary": "",
-      "date": "",
-      "keywords": []
-    }]
-  },
+  "patents": [{
+    "title": "",
+    "url": "",
+    "number": "",
+    "status": "",
+    "summary": "",
+    "date": "",
+    "keywords": []
+  }],
 
-  "languages": {
-    "list": [{
-      "language": "",
-      "level": "",
-      "years": ""
-    }]
-  },
+  "languages": [{
+    "language": "",
+    "level": "",
+    "years": ""
+  }],
 
-  "interests": {
-    "list": [{
-      "name": "",
-      "summary": ""
-    }]
-  },
+  "interests": [{
+    "name": "",
+    "summary": ""
+  }],
 
-  "extracurricular": {
-    "history": [{
-      "title": "",
-      "summary": "",
-      "category": "",
-      "url": "",
-      "location": "",
-      "startDate": "",
-      "endDate": "",
-      "keywords": []
-    }]
-  },
+  "extracurricular": [{
+    "title": "",
+    "summary": "",
+    "category": "",
+    "url": "",
+    "location": "",
+    "startDate": "",
+    "endDate": "",
+    "keywords": []
+  }],
 
-  "affiliation": {
-    "history": [{
-      "category": "",
-      "organization": "",
-      "roles": [],
-      "url": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "location": "",
-      "keywords": []
-    }]
-  },
+  "affiliation": [{
+    "category": "",
+    "organization": "",
+    "roles": [],
+    "url": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "location": "",
+    "keywords": []
+  }],
 
-  "governance": {
-    "history": [{
-      "summary": "",
-      "category": "",
-      "url": "",
-      "roles": [],
-      "organization": "",
-      "startDate": "",
-      "endDate": "",
-      "keywords": [],
-      "highlights": []
-    }]
-  },
+  "governance": [{
+    "summary": "",
+    "category": "",
+    "url": "",
+    "roles": [],
+    "organization": "",
+    "startDate": "",
+    "endDate": "",
+    "keywords": [],
+    "highlights": []
+  }],
 
-  "service": {
-    "history": [{
-      "category": "",
-      "organization": "",
-      "roles": [],
-      "url": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "location": "",
-      "keywords": []
-    }]
-  },
+  "service": [{
+    "category": "",
+    "organization": "",
+    "roles": [],
+    "url": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "location": "",
+    "keywords": []
+  }],
 
-  "references": {
-    "history": [{
-      "name": "",
-      "role": "",
-      "company": "",
-      "summary": ""
-    }]
-  }
+  "references": [{
+    "name": "",
+    "role": "",
+    "company": "",
+    "summary": ""
+  }]
 }
